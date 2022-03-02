@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='面试题 01.01. 判定字符是否唯一'/>
+        <page name='面试题 01.02. 判定是否互为字符重排'/>
+    </pages>
+</playground>
