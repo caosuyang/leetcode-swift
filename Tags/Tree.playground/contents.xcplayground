@@ -1,4 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='5.0' target-platform='ios' buildActiveScheme='true' executeOnSourceChanges='false' importAppTypes='true'>
-    <timeline fileName='timeline.xctimeline'/>
+<playground version='6.0' target-platform='ios' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='226. 翻转二叉树'/>
+        <page name='104. 二叉树的最大深度'/>
+        <page name='剑指 Offer 55 - I. 二叉树的深度'/>
+        <page name='144. 二叉树的前序遍历'/>
+        <page name='94. 二叉树的中序遍历'/>
+        <page name='145. 二叉树的后序遍历'/>
+        <page name='102. 二叉树的层序遍历'/>
+        <page name='662. 二叉树最大宽度'/>
+        <page name='107. 二叉树的层序遍历 II'/>
+        <page name='589. N 叉树的前序遍历'/>
+        <page name='590. N 叉树的后序遍历'/>
+        <page name='559. N 叉树的最大深度'/>
+        <page name='114. 二叉树展开为链表'/>
+        <page name='106. 从中序与后序遍历序列构造二叉树'/>
+        <page name='105. 从前序与中序遍历序列构造二叉树'/>
+        <page name='889. 根据前序和后序遍历构造二叉树'/>
+        <page name='101. 对称二叉树'/>
+    </pages>
 </playground>
