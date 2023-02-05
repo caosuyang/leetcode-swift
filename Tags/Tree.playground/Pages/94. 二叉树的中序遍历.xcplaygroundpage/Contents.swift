@@ -34,22 +34,58 @@ public class TreeNode {
 }
 
 class Solution {
+    private var list = [Int]()
     /**
      * 递归，深度优先搜索
      * 时间复杂度：O(n)，其中 n 为二叉树的节点个数
-     * 空间复杂度：O(height)，其中 height 表示二叉树的高度
+     * 空间复杂度：O(n)，其中 n 为函数堆栈深度
      * @param root
      * @return
      */
-    func invertTree(_ root: TreeNode?) -> TreeNode? {
+    func inorderTraversal(_ root: TreeNode?) -> [Int] {
         if root == nil {
-            return root
+            return list
         }
-        let tmp = root?.left
-        root?.left = root?.right
-        root?.right = tmp
-        invertTree(root?.left)
-        invertTree(root?.right)
-        return root
+        
+        inorderTraversal(root?.left)
+        if let val = root?.val {
+            list.append(val)
+        }
+        inorderTraversal(root?.right)
+        return list
+    }
+    
+    /**
+     * 栈，深度优先搜索
+     * 时间复杂度：O(n)，其中 n 为二叉树的节点个数
+     * 空间复杂度：O(n)，其中 n 为函数堆栈深度
+     * @param root
+     * @return
+     */
+    func inorderTraversal1(_ root: TreeNode?) -> [Int] {
+        var list = [Int]()
+        if root == nil {
+            return list
+        }
+        var stack = [TreeNode?]()
+        var node = root
+        while true {
+            while node != nil {
+                stack.append(node)
+                node = node?.left
+            }
+            while node == nil {
+                if stack.isEmpty {
+                    return list
+                } else {
+                    let l = stack.removeLast()
+                    node = l
+                    if let val = node?.val {
+                        list.append(val)
+                    }
+                    node = node?.right
+                }
+            }
+        }
     }
 }

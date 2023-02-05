@@ -35,21 +35,38 @@ public class TreeNode {
 
 class Solution {
     /**
-     * 递归，深度优先搜索
+     * 队列，广度优先搜索
      * 时间复杂度：O(n)，其中 n 为二叉树的节点个数
-     * 空间复杂度：O(height)，其中 height 表示二叉树的高度
+     * 空间复杂度：O(n)，其中 n 为函数堆栈深度
      * @param root
      * @return
      */
-    func invertTree(_ root: TreeNode?) -> TreeNode? {
+    func levelOrder(_ root: TreeNode?) -> [[Int]] {
+        var lists = [[Int]]()
         if root == nil {
-            return root
+            return lists
         }
-        let tmp = root?.left
-        root?.left = root?.right
-        root?.right = tmp
-        invertTree(root?.left)
-        invertTree(root?.right)
-        return root
+        var queue = [TreeNode?]()
+        queue.append(root)
+        while queue.isEmpty == false {
+            var size = queue.count
+            var list = [Int]()
+            while size > 0 {
+                size -= 1
+                let f = queue.removeLast()
+                if let val = f?.val {
+                    list.append(val)
+                }
+                
+                if f?.left != nil {
+                    queue.append(f?.left)
+                }
+                if f?.right != nil {
+                    queue.append(f?.right)
+                }
+            }
+            lists.append(list)
+        }
+        return lists
     }
 }

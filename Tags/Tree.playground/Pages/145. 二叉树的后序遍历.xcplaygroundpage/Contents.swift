@@ -34,22 +34,64 @@ public class TreeNode {
 }
 
 class Solution {
+    private var list = [Int]()
     /**
      * 递归，深度优先搜索
      * 时间复杂度：O(n)，其中 n 为二叉树的节点个数
-     * 空间复杂度：O(height)，其中 height 表示二叉树的高度
+     * 空间复杂度：O(n)，其中 n 为函数堆栈深度
      * @param root
      * @return
      */
-    func invertTree(_ root: TreeNode?) -> TreeNode? {
+    func postorderTraversal(_ root: TreeNode?) -> [Int] {
         if root == nil {
-            return root
+            return list
         }
-        let tmp = root?.left
-        root?.left = root?.right
-        root?.right = tmp
-        invertTree(root?.left)
-        invertTree(root?.right)
-        return root
+        
+        postorderTraversal(root?.left)
+        postorderTraversal(root?.right)
+        if let val = root?.val {
+            list.append(val)
+        }
+        return list
+    }
+    
+    /**
+     * 栈，深度优先搜索
+     * 时间复杂度：O(n)，其中 n 为二叉树的节点个数
+     * 空间复杂度：O(n)，其中 n 为函数堆栈深度
+     * @param root
+     * @return
+     */
+    func postorderTraversal1(_ root: TreeNode?) -> [Int] {
+        var list = [Int]()
+        if root == nil {
+            return list
+        }
+        var stack = [TreeNode?]()
+        stack.append(root)
+        var last: TreeNode?
+        while stack.isEmpty == false {
+            var p: TreeNode?
+            if let l = stack.last {
+                p = l
+            }
+            let isLeaf = p?.left == nil && p?.right == nil
+            let isSub = last != nil && (last === p?.left || last === p?.right)
+            if isLeaf || isSub {
+                let top = stack.removeLast()
+                if let val = top?.val {
+                    list.append(val)
+                }
+                last = top
+            } else {
+                if p?.right != nil {
+                    stack.append(p?.right)
+                }
+                if p?.left != nil {
+                    stack.append(p?.left)
+                }
+            }
+        }
+        return list
     }
 }

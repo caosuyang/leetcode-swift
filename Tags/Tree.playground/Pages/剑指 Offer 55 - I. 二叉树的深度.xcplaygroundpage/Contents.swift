@@ -52,7 +52,7 @@ class Solution {
     }
 }
 
-class Solution {
+class Solution1 {
     /**
      * 迭代，队列，层序遍历，广度优先搜索
      * 时间复杂度：O(n)，其中 n 为二叉树的节点个数
