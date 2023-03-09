@@ -57,13 +57,69 @@ class Solution {
 }
 
 class Solution1 {
+    private var lists: [[Int]] = []
+    private var numbers: [Int] = []
+    /// 用来保存每一层选择的数字
+    private var results: [Int] = []
+    
     func permute(_ nums: [Int]) -> [[Int]] {
-        return [[Int]]()
+        if nums.count == 0 { return lists }
+        numbers = nums
+        dfs(0)
+        return lists
+    }
+    
+    func dfs(_ index: Int) {
+        // 不能再往下搜索
+        if index == numbers.count {
+            var resultList = [Int]()
+            resultList = results
+            lists.append(resultList)
+            return
+        }
+        
+        // 枚举这一层所有可以做出的选择
+        for num in numbers {
+            if results.contains(num) { continue }
+            results.append(num)
+            
+            dfs(index + 1)
+            results.remove(at: results.count - 1)
+        }
     }
 }
 
 class Solution2 {
+
     func permute(_ nums: [Int]) -> [[Int]] {
-        return [[Int]]()
+        var lists: [[Int]] = []
+        if nums.count == 0 { return lists }
+        dfs(0, nums, lists)
+        return lists
+    }
+    
+    func dfs(_ index: Int, _ nums: [Int], _ lists: [[Int]]) {
+        // 不能再往下搜索
+        if index == nums.count {
+            var result = [Int]()
+            for value in nums {
+                result.append(value)
+            }
+            lists.append(result)
+            return
+        }
+        
+        // 枚举这一层所有可以做出的选择
+        for i in index..<nums.count {
+            swap(nums, index, i)
+            dfs(index + 1, nums, lists)
+            swap(nums, index, i)
+        }
+    }
+    
+    func swap(_ nums: [Int], _ i: Int, _ j: Int) {
+        let tmp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = tmp;
     }
 }
