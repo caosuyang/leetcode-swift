@@ -1,4 +1,5 @@
 /**
+ 回溯
  https://leetcode.cn/problems/permutations/
  */
 /**
@@ -17,107 +18,118 @@
  -10 <= nums[i] <= 10
  nums 中的所有整数 互不相同
  */
+/**
+ 方法一：执行出错 0 / 26 个通过的测试用例
+ process exited with signal SIGILL
+ */
 class Solution {
-    private var lists: [[Int]] = []
-    private var numbers: [Int] = []
+    private var list = [[Int]]()
+    private var nums1 = [Int]()
     /// 用来保存每一层选择的数字
-    private var results: [Int] = []
+    private var result = [Int]()
     /// 用来标记nums中的数字是否被使用过了
-    private var useds: [Bool] = []
+    private var used = [Bool]()
     
     func permute(_ nums: [Int]) -> [[Int]] {
-        if nums.count == 0 { return lists }
-        numbers = nums
+        if nums.count == 0 { return list }
+        nums1 = nums
         dfs(0)
-        return lists
+        return list
     }
     
-    func dfs(_ index: Int) {
+    func dfs(_ idx: Int) {
         // 不能再往下搜索
-        if index == numbers.count {
+        if idx == nums1.count {
             var resultList = [Int]()
-            for value in results {
+            for value in result {
                 resultList.append(value)
             }
-            lists.append(resultList)
+            list.append(resultList)
             return
         }
         
         // 枚举这一层所有可以做出的选择
-        for i in 0..<numbers.count {
-            if useds[i] { continue }
-            results[index] = numbers[i]
-            useds[i] = true
+        for i in 0..<nums1.count {
+            if used[i] { continue }
+            result[idx] = nums1[i]
+            used[i] = true
             
-            dfs(index + 1)
+            dfs(idx + 1)
+            
             // 还原现场
-            useds[i] = false
+            used[i] = false
         }
     }
 }
 
-class Solution1 {
-    private var lists: [[Int]] = []
-    private var numbers: [Int] = []
+/**
+ 方法二：通过
+ */
+class Solution2 {
+    private var list = [[Int]]()
+    private var nums1 = [Int]()
     /// 用来保存每一层选择的数字
-    private var results: [Int] = []
+    private var result = [Int]()
     
     func permute(_ nums: [Int]) -> [[Int]] {
-        if nums.count == 0 { return lists }
-        numbers = nums
+        if nums.count == 0 { return list }
+        nums1 = nums
         dfs(0)
-        return lists
+        return list
     }
     
-    func dfs(_ index: Int) {
+    func dfs(_ idx: Int) {
         // 不能再往下搜索
-        if index == numbers.count {
-            var resultList = [Int]()
-            resultList = results
-            lists.append(resultList)
+        if idx == nums1.count {
+            list.append(result)
             return
         }
         
         // 枚举这一层所有可以做出的选择
-        for num in numbers {
-            if results.contains(num) { continue }
-            results.append(num)
+        for num in nums1 {
+            if result.contains(num) { continue }
             
-            dfs(index + 1)
-            results.remove(at: results.count - 1)
+            result.append(num)
+            
+            dfs(idx + 1)
+            
+            result.remove(at: result.count - 1)
         }
     }
 }
 
-class Solution2 {
-
+/**
+ 方法三：通过
+ */
+class Solution3 {
     func permute(_ nums: [Int]) -> [[Int]] {
-        var lists: [[Int]] = []
-        if nums.count == 0 { return lists }
-        dfs(0, nums, lists)
-        return lists
+        var list = [[Int]]()
+        if nums.count == 0 { return list }
+        var nums1 = nums
+        dfs(0, &nums1, &list)
+        return list
     }
     
-    func dfs(_ index: Int, _ nums: [Int], _ lists: [[Int]]) {
+    func dfs(_ idx: Int, _ nums: inout [Int], _ list: inout [[Int]]) {
         // 不能再往下搜索
-        if index == nums.count {
+        if idx == nums.count {
             var result = [Int]()
             for value in nums {
                 result.append(value)
             }
-            lists.append(result)
+            list.append(result)
             return
         }
         
         // 枚举这一层所有可以做出的选择
-        for i in index..<nums.count {
-            swap(nums, index, i)
-            dfs(index + 1, nums, lists)
-            swap(nums, index, i)
+        for i in idx..<nums.count {
+            swap(&nums, idx, i)
+            dfs(idx + 1, &nums, &list)
+            swap(&nums, idx, i)
         }
     }
     
-    func swap(_ nums: [Int], _ i: Int, _ j: Int) {
+    func swap(_ nums: inout [Int], _ i: Int, _ j: Int) {
         let tmp = nums[i];
         nums[i] = nums[j];
         nums[j] = tmp;
