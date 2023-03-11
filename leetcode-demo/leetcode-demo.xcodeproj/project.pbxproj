@@ -95,7 +95,8 @@
 		313999CB29BC22E700E3909E = {
 			isa = PBXGroup;
 			children = (
-				31399A0729BC233C00E3909E /* Tags */,
+				31399A0729BC233C00E3909E /* playground */,
+				31399A1829BC24D800E3909E /* leetcode-swift */,
 				313999D629BC22E700E3909E /* leetcode-demo */,
 				313999ED29BC22EC00E3909E /* leetcode-demoTests */,
 				313999F729BC22EC00E3909E /* leetcode-demoUITests */,
@@ -144,7 +145,7 @@
 			path = "leetcode-demoUITests";
 			sourceTree = "<group>";
 		};
-		31399A0729BC233C00E3909E /* Tags */ = {
+		31399A0729BC233C00E3909E /* playground */ = {
 			isa = PBXGroup;
 			children = (
 				31399A0829BC233C00E3909E /* Tree.playground */,
@@ -164,8 +165,144 @@
 				31399A1629BC233D00E3909E /* Graph.playground */,
 				31399A1729BC233D00E3909E /* Queue.playground */,
 			);
-			name = Tags;
-			path = ../Tags;
+			name = playground;
+			path = ../playground;
+			sourceTree = "<group>";
+		};
+		31399A1829BC24D800E3909E /* leetcode-swift */ = {
+			isa = PBXGroup;
+			children = (
+				31399A1929BC24D800E3909E /* Tree */,
+				31399A1A29BC24D800E3909E /* Design */,
+				31399A1B29BC24D800E3909E /* DFS */,
+				31399A1C29BC24D800E3909E /* Sort */,
+				31399A1D29BC24D800E3909E /* Array */,
+				31399A1E29BC24D800E3909E /* LinkedList */,
+				31399A1F29BC24D800E3909E /* Graph */,
+				31399A2029BC24D800E3909E /* Math */,
+				31399A2129BC24D800E3909E /* Search */,
+				31399A2229BC24D800E3909E /* BFS */,
+				31399A2329BC24D800E3909E /* DivideAndConquer */,
+				31399A2429BC24D800E3909E /* Queue */,
+				31399A2529BC24D800E3909E /* DP */,
+				31399A2629BC24D800E3909E /* String */,
+				31399A2729BC24D800E3909E /* Stack */,
+				31399A2829BC24D800E3909E /* Sequence */,
+			);
+			name = "leetcode-swift";
+			path = "../leetcode-swift";
+			sourceTree = "<group>";
+		};
+		31399A1929BC24D800E3909E /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tree;
+			sourceTree = "<group>";
+		};
+		31399A1A29BC24D800E3909E /* Design */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		31399A1B29BC24D800E3909E /* DFS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DFS;
+			sourceTree = "<group>";
+		};
+		31399A1C29BC24D800E3909E /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sort;
+			sourceTree = "<group>";
+		};
+		31399A1D29BC24D800E3909E /* Array */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
+		31399A1E29BC24D800E3909E /* LinkedList */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LinkedList;
+			sourceTree = "<group>";
+		};
+		31399A1F29BC24D800E3909E /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Graph;
+			sourceTree = "<group>";
+		};
+		31399A2029BC24D800E3909E /* Math */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Math;
+			sourceTree = "<group>";
+		};
+		31399A2129BC24D800E3909E /* Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		31399A2229BC24D800E3909E /* BFS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BFS;
+			sourceTree = "<group>";
+		};
+		31399A2329BC24D800E3909E /* DivideAndConquer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DivideAndConquer;
+			sourceTree = "<group>";
+		};
+		31399A2429BC24D800E3909E /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Queue;
+			sourceTree = "<group>";
+		};
+		31399A2529BC24D800E3909E /* DP */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DP;
+			sourceTree = "<group>";
+		};
+		31399A2629BC24D800E3909E /* String */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		31399A2729BC24D800E3909E /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
+		31399A2829BC24D800E3909E /* Sequence */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sequence;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
