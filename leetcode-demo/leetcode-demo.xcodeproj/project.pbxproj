@@ -36,6 +36,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2047A1D029C188AB008E8FF1 /* Sequence.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Sequence.playground; sourceTree = "<group>"; };
+		2047A1D129C188AB008E8FF1 /* DivideAndConquer.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DivideAndConquer.playground; sourceTree = "<group>"; };
+		2047A1D229C188AB008E8FF1 /* Sorting.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Sorting.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2047A1D429C188AB008E8FF1 /* Tree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Tree.playground; sourceTree = "<group>"; };
+		2047A1D529C188AB008E8FF1 /* Math.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Math.playground; sourceTree = "<group>"; };
+		2047A1D629C188AB008E8FF1 /* String.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = String.playground; sourceTree = "<group>"; };
+		2047A1D729C188AB008E8FF1 /* Sort.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Sort.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2047A1D829C188AB008E8FF1 /* Design.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Design.playground; sourceTree = "<group>"; };
+		2047A1D929C188AB008E8FF1 /* Stack.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Stack.playground; sourceTree = "<group>"; };
+		2047A1DA29C188AB008E8FF1 /* Search.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Search.playground; sourceTree = "<group>"; };
+		2047A1DB29C188AB008E8FF1 /* Array.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Array.playground; sourceTree = "<group>"; };
+		2047A1DC29C188AB008E8FF1 /* LinkedList.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LinkedList.playground; sourceTree = "<group>"; };
+		2047A1DD29C188AB008E8FF1 /* DFS.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DFS.playground; sourceTree = "<group>"; };
+		2047A1DE29C188AB008E8FF1 /* DP.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DP.playground; sourceTree = "<group>"; };
+		2047A1DF29C188AB008E8FF1 /* BFS.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BFS.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2047A1E029C188AB008E8FF1 /* Graph.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Graph.playground; sourceTree = "<group>"; };
+		2047A1E129C188AB008E8FF1 /* Queue.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Queue.playground; sourceTree = "<group>"; };
 		313999D429BC22E700E3909E /* leetcode-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "leetcode-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		313999D729BC22E700E3909E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		313999D929BC22E700E3909E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,22 +66,6 @@
 		313999F429BC22EC00E3909E /* leetcode-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "leetcode-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		313999F829BC22EC00E3909E /* leetcode_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leetcode_demoUITests.swift; sourceTree = "<group>"; };
 		313999FA29BC22EC00E3909E /* leetcode_demoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leetcode_demoUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		31399A0829BC233C00E3909E /* Tree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Tree.playground; sourceTree = "<group>"; };
-		31399A0929BC233D00E3909E /* Math.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Math.playground; sourceTree = "<group>"; };
-		31399A0A29BC233D00E3909E /* String.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = String.playground; sourceTree = "<group>"; };
-		31399A0B29BC233D00E3909E /* Sort.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Sort.playground; sourceTree = "<group>"; };
-		31399A0C29BC233D00E3909E /* Design.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Design.playground; sourceTree = "<group>"; };
-		31399A0D29BC233D00E3909E /* Stack.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Stack.playground; sourceTree = "<group>"; };
-		31399A0E29BC233D00E3909E /* Search.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Search.playground; sourceTree = "<group>"; };
-		31399A0F29BC233D00E3909E /* Sequence.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Sequence.playground; sourceTree = "<group>"; };
-		31399A1029BC233D00E3909E /* DivideAndConquer.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DivideAndConquer.playground; sourceTree = "<group>"; };
-		31399A1129BC233D00E3909E /* Array.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Array.playground; sourceTree = "<group>"; };
-		31399A1229BC233D00E3909E /* LinkedList.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LinkedList.playground; sourceTree = "<group>"; };
-		31399A1329BC233D00E3909E /* DFS.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DFS.playground; sourceTree = "<group>"; };
-		31399A1429BC233D00E3909E /* DP.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DP.playground; sourceTree = "<group>"; };
-		31399A1529BC233D00E3909E /* BFS.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BFS.playground; sourceTree = "<group>"; };
-		31399A1629BC233D00E3909E /* Graph.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Graph.playground; sourceTree = "<group>"; };
-		31399A1729BC233D00E3909E /* Queue.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Queue.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,10 +93,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2047A1CE29C188AB008E8FF1 /* playground */ = {
+			isa = PBXGroup;
+			children = (
+				2047A1CF29C188AB008E8FF1 /* MJ2 */,
+				2047A1D329C188AB008E8FF1 /* Tags */,
+			);
+			name = playground;
+			path = ../playground;
+			sourceTree = "<group>";
+		};
+		2047A1CF29C188AB008E8FF1 /* MJ2 */ = {
+			isa = PBXGroup;
+			children = (
+				2047A1D029C188AB008E8FF1 /* Sequence.playground */,
+				2047A1D129C188AB008E8FF1 /* DivideAndConquer.playground */,
+				2047A1D229C188AB008E8FF1 /* Sorting.playground */,
+			);
+			path = MJ2;
+			sourceTree = "<group>";
+		};
+		2047A1D329C188AB008E8FF1 /* Tags */ = {
+			isa = PBXGroup;
+			children = (
+				2047A1D429C188AB008E8FF1 /* Tree.playground */,
+				2047A1D529C188AB008E8FF1 /* Math.playground */,
+				2047A1D629C188AB008E8FF1 /* String.playground */,
+				2047A1D729C188AB008E8FF1 /* Sort.playground */,
+				2047A1D829C188AB008E8FF1 /* Design.playground */,
+				2047A1D929C188AB008E8FF1 /* Stack.playground */,
+				2047A1DA29C188AB008E8FF1 /* Search.playground */,
+				2047A1DB29C188AB008E8FF1 /* Array.playground */,
+				2047A1DC29C188AB008E8FF1 /* LinkedList.playground */,
+				2047A1DD29C188AB008E8FF1 /* DFS.playground */,
+				2047A1DE29C188AB008E8FF1 /* DP.playground */,
+				2047A1DF29C188AB008E8FF1 /* BFS.playground */,
+				2047A1E029C188AB008E8FF1 /* Graph.playground */,
+				2047A1E129C188AB008E8FF1 /* Queue.playground */,
+			);
+			path = Tags;
+			sourceTree = "<group>";
+		};
 		313999CB29BC22E700E3909E = {
 			isa = PBXGroup;
 			children = (
-				31399A0729BC233C00E3909E /* playground */,
+				2047A1CE29C188AB008E8FF1 /* playground */,
 				31399A1829BC24D800E3909E /* leetcode-swift */,
 				313999D629BC22E700E3909E /* leetcode-demo */,
 				313999ED29BC22EC00E3909E /* leetcode-demoTests */,
@@ -143,30 +185,6 @@
 				313999FA29BC22EC00E3909E /* leetcode_demoUITestsLaunchTests.swift */,
 			);
 			path = "leetcode-demoUITests";
-			sourceTree = "<group>";
-		};
-		31399A0729BC233C00E3909E /* playground */ = {
-			isa = PBXGroup;
-			children = (
-				31399A0829BC233C00E3909E /* Tree.playground */,
-				31399A0929BC233D00E3909E /* Math.playground */,
-				31399A0A29BC233D00E3909E /* String.playground */,
-				31399A0B29BC233D00E3909E /* Sort.playground */,
-				31399A0C29BC233D00E3909E /* Design.playground */,
-				31399A0D29BC233D00E3909E /* Stack.playground */,
-				31399A0E29BC233D00E3909E /* Search.playground */,
-				31399A0F29BC233D00E3909E /* Sequence.playground */,
-				31399A1029BC233D00E3909E /* DivideAndConquer.playground */,
-				31399A1129BC233D00E3909E /* Array.playground */,
-				31399A1229BC233D00E3909E /* LinkedList.playground */,
-				31399A1329BC233D00E3909E /* DFS.playground */,
-				31399A1429BC233D00E3909E /* DP.playground */,
-				31399A1529BC233D00E3909E /* BFS.playground */,
-				31399A1629BC233D00E3909E /* Graph.playground */,
-				31399A1729BC233D00E3909E /* Queue.playground */,
-			);
-			name = playground;
-			path = ../playground;
 			sourceTree = "<group>";
 		};
 		31399A1829BC24D800E3909E /* leetcode-swift */ = {
