@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		201CEA1229C2BBD1006EAE27 /* BubbleSort1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201CEA1129C2BBD1006EAE27 /* BubbleSort1.swift */; };
+		201CEA1429C2BBFF006EAE27 /* BubbleSort2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201CEA1329C2BBFF006EAE27 /* BubbleSort2.swift */; };
+		201CEA1629C2BC0C006EAE27 /* BubbleSort3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201CEA1529C2BC0C006EAE27 /* BubbleSort3.swift */; };
+		201CEA1A29C2BD65006EAE27 /* SelectionSort1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201CEA1929C2BD65006EAE27 /* SelectionSort1.swift */; };
+		201CEA1C29C2BE9C006EAE27 /* HeapSort1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201CEA1B29C2BE9C006EAE27 /* HeapSort1.swift */; };
 		313999D829BC22E700E3909E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313999D729BC22E700E3909E /* AppDelegate.swift */; };
 		313999DA29BC22E700E3909E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313999D929BC22E700E3909E /* SceneDelegate.swift */; };
 		313999DC29BC22E700E3909E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313999DB29BC22E700E3909E /* ViewController.swift */; };
@@ -36,23 +41,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2047A1D029C188AB008E8FF1 /* Sequence.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Sequence.playground; sourceTree = "<group>"; };
-		2047A1D129C188AB008E8FF1 /* DivideAndConquer.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DivideAndConquer.playground; sourceTree = "<group>"; };
-		2047A1D229C188AB008E8FF1 /* Sorting.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Sorting.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		2047A1D429C188AB008E8FF1 /* Tree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Tree.playground; sourceTree = "<group>"; };
-		2047A1D529C188AB008E8FF1 /* Math.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Math.playground; sourceTree = "<group>"; };
-		2047A1D629C188AB008E8FF1 /* String.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = String.playground; sourceTree = "<group>"; };
-		2047A1D729C188AB008E8FF1 /* Sort.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Sort.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		2047A1D829C188AB008E8FF1 /* Design.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Design.playground; sourceTree = "<group>"; };
-		2047A1D929C188AB008E8FF1 /* Stack.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Stack.playground; sourceTree = "<group>"; };
-		2047A1DA29C188AB008E8FF1 /* Search.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Search.playground; sourceTree = "<group>"; };
-		2047A1DB29C188AB008E8FF1 /* Array.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Array.playground; sourceTree = "<group>"; };
-		2047A1DC29C188AB008E8FF1 /* LinkedList.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LinkedList.playground; sourceTree = "<group>"; };
-		2047A1DD29C188AB008E8FF1 /* DFS.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DFS.playground; sourceTree = "<group>"; };
-		2047A1DE29C188AB008E8FF1 /* DP.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DP.playground; sourceTree = "<group>"; };
-		2047A1DF29C188AB008E8FF1 /* BFS.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BFS.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		2047A1E029C188AB008E8FF1 /* Graph.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Graph.playground; sourceTree = "<group>"; };
-		2047A1E129C188AB008E8FF1 /* Queue.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Queue.playground; sourceTree = "<group>"; };
+		201CE9EA29C2BB52006EAE27 /* Sequence.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Sequence.playground; sourceTree = "<group>"; };
+		201CE9EB29C2BB52006EAE27 /* DivideAndConquer.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DivideAndConquer.playground; sourceTree = "<group>"; };
+		201CE9F529C2BB53006EAE27 /* Tree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Tree.playground; sourceTree = "<group>"; };
+		201CE9F629C2BB53006EAE27 /* Math.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Math.playground; sourceTree = "<group>"; };
+		201CE9F729C2BB53006EAE27 /* String.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = String.playground; sourceTree = "<group>"; };
+		201CE9F829C2BB53006EAE27 /* Sort.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Sort.playground; sourceTree = "<group>"; };
+		201CE9FA29C2BB53006EAE27 /* Design.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Design.playground; sourceTree = "<group>"; };
+		201CE9FE29C2BB53006EAE27 /* Stack.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Stack.playground; sourceTree = "<group>"; };
+		201CEA0029C2BB53006EAE27 /* Search.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Search.playground; sourceTree = "<group>"; };
+		201CEA0129C2BB53006EAE27 /* Array.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Array.playground; sourceTree = "<group>"; };
+		201CEA0229C2BB53006EAE27 /* LinkedList.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LinkedList.playground; sourceTree = "<group>"; };
+		201CEA0529C2BB53006EAE27 /* DFS.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DFS.playground; sourceTree = "<group>"; };
+		201CEA0729C2BB53006EAE27 /* DP.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DP.playground; sourceTree = "<group>"; };
+		201CEA0829C2BB53006EAE27 /* BFS.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BFS.playground; sourceTree = "<group>"; };
+		201CEA0B29C2BB53006EAE27 /* Graph.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Graph.playground; sourceTree = "<group>"; };
+		201CEA0E29C2BB53006EAE27 /* Queue.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Queue.playground; sourceTree = "<group>"; };
+		201CEA1129C2BBD1006EAE27 /* BubbleSort1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort1.swift; sourceTree = "<group>"; };
+		201CEA1329C2BBFF006EAE27 /* BubbleSort2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort2.swift; sourceTree = "<group>"; };
+		201CEA1529C2BC0C006EAE27 /* BubbleSort3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort3.swift; sourceTree = "<group>"; };
+		201CEA1929C2BD65006EAE27 /* SelectionSort1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionSort1.swift; sourceTree = "<group>"; };
+		201CEA1B29C2BE9C006EAE27 /* HeapSort1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeapSort1.swift; sourceTree = "<group>"; };
 		313999D429BC22E700E3909E /* leetcode-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "leetcode-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		313999D729BC22E700E3909E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		313999D929BC22E700E3909E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -93,52 +102,233 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2047A1CE29C188AB008E8FF1 /* playground */ = {
+		201CE9E929C2BB52006EAE27 /* arithmetic */ = {
 			isa = PBXGroup;
 			children = (
-				2047A1CF29C188AB008E8FF1 /* MJ2 */,
-				2047A1D329C188AB008E8FF1 /* Tags */,
+				201CE9EA29C2BB52006EAE27 /* Sequence.playground */,
+				201CE9EB29C2BB52006EAE27 /* DivideAndConquer.playground */,
+				201CE9ED29C2BB52006EAE27 /* DivideAndConquer */,
+				201CE9EE29C2BB52006EAE27 /* Sorting */,
+				201CE9EF29C2BB52006EAE27 /* Sequence */,
 			);
-			name = playground;
-			path = ../playground;
+			name = arithmetic;
+			path = ../arithmetic;
 			sourceTree = "<group>";
 		};
-		2047A1CF29C188AB008E8FF1 /* MJ2 */ = {
+		201CE9ED29C2BB52006EAE27 /* DivideAndConquer */ = {
 			isa = PBXGroup;
 			children = (
-				2047A1D029C188AB008E8FF1 /* Sequence.playground */,
-				2047A1D129C188AB008E8FF1 /* DivideAndConquer.playground */,
-				2047A1D229C188AB008E8FF1 /* Sorting.playground */,
 			);
-			path = MJ2;
+			path = DivideAndConquer;
 			sourceTree = "<group>";
 		};
-		2047A1D329C188AB008E8FF1 /* Tags */ = {
+		201CE9EE29C2BB52006EAE27 /* Sorting */ = {
 			isa = PBXGroup;
 			children = (
-				2047A1D429C188AB008E8FF1 /* Tree.playground */,
-				2047A1D529C188AB008E8FF1 /* Math.playground */,
-				2047A1D629C188AB008E8FF1 /* String.playground */,
-				2047A1D729C188AB008E8FF1 /* Sort.playground */,
-				2047A1D829C188AB008E8FF1 /* Design.playground */,
-				2047A1D929C188AB008E8FF1 /* Stack.playground */,
-				2047A1DA29C188AB008E8FF1 /* Search.playground */,
-				2047A1DB29C188AB008E8FF1 /* Array.playground */,
-				2047A1DC29C188AB008E8FF1 /* LinkedList.playground */,
-				2047A1DD29C188AB008E8FF1 /* DFS.playground */,
-				2047A1DE29C188AB008E8FF1 /* DP.playground */,
-				2047A1DF29C188AB008E8FF1 /* BFS.playground */,
-				2047A1E029C188AB008E8FF1 /* Graph.playground */,
-				2047A1E129C188AB008E8FF1 /* Queue.playground */,
+				201CEA1029C2BB9B006EAE27 /* Cmp */,
+			);
+			path = Sorting;
+			sourceTree = "<group>";
+		};
+		201CE9EF29C2BB52006EAE27 /* Sequence */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sequence;
+			sourceTree = "<group>";
+		};
+		201CE9F029C2BB53006EAE27 /* data-structure */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "data-structure";
+			path = "../data-structure";
+			sourceTree = "<group>";
+		};
+		201CE9F129C2BB53006EAE27 /* leetcode */ = {
+			isa = PBXGroup;
+			children = (
+				201CE9F229C2BB53006EAE27 /* Tags */,
+			);
+			name = leetcode;
+			path = ../leetcode;
+			sourceTree = "<group>";
+		};
+		201CE9F229C2BB53006EAE27 /* Tags */ = {
+			isa = PBXGroup;
+			children = (
+				201CE9F329C2BB53006EAE27 /* Tree */,
+				201CE9F429C2BB53006EAE27 /* Design */,
+				201CE9F529C2BB53006EAE27 /* Tree.playground */,
+				201CE9F629C2BB53006EAE27 /* Math.playground */,
+				201CE9F729C2BB53006EAE27 /* String.playground */,
+				201CE9F829C2BB53006EAE27 /* Sort.playground */,
+				201CE9F929C2BB53006EAE27 /* DFS */,
+				201CE9FA29C2BB53006EAE27 /* Design.playground */,
+				201CE9FB29C2BB53006EAE27 /* Sort */,
+				201CE9FC29C2BB53006EAE27 /* Array */,
+				201CE9FD29C2BB53006EAE27 /* LinkedList */,
+				201CE9FE29C2BB53006EAE27 /* Stack.playground */,
+				201CE9FF29C2BB53006EAE27 /* Graph */,
+				201CEA0029C2BB53006EAE27 /* Search.playground */,
+				201CEA0129C2BB53006EAE27 /* Array.playground */,
+				201CEA0229C2BB53006EAE27 /* LinkedList.playground */,
+				201CEA0329C2BB53006EAE27 /* Math */,
+				201CEA0429C2BB53006EAE27 /* Search */,
+				201CEA0529C2BB53006EAE27 /* DFS.playground */,
+				201CEA0629C2BB53006EAE27 /* BFS */,
+				201CEA0729C2BB53006EAE27 /* DP.playground */,
+				201CEA0829C2BB53006EAE27 /* BFS.playground */,
+				201CEA0929C2BB53006EAE27 /* Queue */,
+				201CEA0A29C2BB53006EAE27 /* DP */,
+				201CEA0B29C2BB53006EAE27 /* Graph.playground */,
+				201CEA0C29C2BB53006EAE27 /* String */,
+				201CEA0D29C2BB53006EAE27 /* Stack */,
+				201CEA0E29C2BB53006EAE27 /* Queue.playground */,
 			);
 			path = Tags;
+			sourceTree = "<group>";
+		};
+		201CE9F329C2BB53006EAE27 /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tree;
+			sourceTree = "<group>";
+		};
+		201CE9F429C2BB53006EAE27 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		201CE9F929C2BB53006EAE27 /* DFS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DFS;
+			sourceTree = "<group>";
+		};
+		201CE9FB29C2BB53006EAE27 /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sort;
+			sourceTree = "<group>";
+		};
+		201CE9FC29C2BB53006EAE27 /* Array */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
+		201CE9FD29C2BB53006EAE27 /* LinkedList */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LinkedList;
+			sourceTree = "<group>";
+		};
+		201CE9FF29C2BB53006EAE27 /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Graph;
+			sourceTree = "<group>";
+		};
+		201CEA0329C2BB53006EAE27 /* Math */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Math;
+			sourceTree = "<group>";
+		};
+		201CEA0429C2BB53006EAE27 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		201CEA0629C2BB53006EAE27 /* BFS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BFS;
+			sourceTree = "<group>";
+		};
+		201CEA0929C2BB53006EAE27 /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Queue;
+			sourceTree = "<group>";
+		};
+		201CEA0A29C2BB53006EAE27 /* DP */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DP;
+			sourceTree = "<group>";
+		};
+		201CEA0C29C2BB53006EAE27 /* String */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		201CEA0D29C2BB53006EAE27 /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
+		201CEA0F29C2BB7F006EAE27 /* Bubble */ = {
+			isa = PBXGroup;
+			children = (
+				201CEA1129C2BBD1006EAE27 /* BubbleSort1.swift */,
+				201CEA1329C2BBFF006EAE27 /* BubbleSort2.swift */,
+				201CEA1529C2BC0C006EAE27 /* BubbleSort3.swift */,
+			);
+			path = Bubble;
+			sourceTree = "<group>";
+		};
+		201CEA1029C2BB9B006EAE27 /* Cmp */ = {
+			isa = PBXGroup;
+			children = (
+				201CEA1829C2BD35006EAE27 /* Heap */,
+				201CEA1729C2BD25006EAE27 /* Selection */,
+				201CEA0F29C2BB7F006EAE27 /* Bubble */,
+			);
+			path = Cmp;
+			sourceTree = "<group>";
+		};
+		201CEA1729C2BD25006EAE27 /* Selection */ = {
+			isa = PBXGroup;
+			children = (
+				201CEA1929C2BD65006EAE27 /* SelectionSort1.swift */,
+			);
+			path = Selection;
+			sourceTree = "<group>";
+		};
+		201CEA1829C2BD35006EAE27 /* Heap */ = {
+			isa = PBXGroup;
+			children = (
+				201CEA1B29C2BE9C006EAE27 /* HeapSort1.swift */,
+			);
+			path = Heap;
 			sourceTree = "<group>";
 		};
 		313999CB29BC22E700E3909E = {
 			isa = PBXGroup;
 			children = (
-				2047A1CE29C188AB008E8FF1 /* playground */,
-				31399A1829BC24D800E3909E /* leetcode-swift */,
+				201CE9E929C2BB52006EAE27 /* arithmetic */,
+				201CE9F029C2BB53006EAE27 /* data-structure */,
+				201CE9F129C2BB53006EAE27 /* leetcode */,
 				313999D629BC22E700E3909E /* leetcode-demo */,
 				313999ED29BC22EC00E3909E /* leetcode-demoTests */,
 				313999F729BC22EC00E3909E /* leetcode-demoUITests */,
@@ -185,142 +375,6 @@
 				313999FA29BC22EC00E3909E /* leetcode_demoUITestsLaunchTests.swift */,
 			);
 			path = "leetcode-demoUITests";
-			sourceTree = "<group>";
-		};
-		31399A1829BC24D800E3909E /* leetcode-swift */ = {
-			isa = PBXGroup;
-			children = (
-				31399A1929BC24D800E3909E /* Tree */,
-				31399A1A29BC24D800E3909E /* Design */,
-				31399A1B29BC24D800E3909E /* DFS */,
-				31399A1C29BC24D800E3909E /* Sort */,
-				31399A1D29BC24D800E3909E /* Array */,
-				31399A1E29BC24D800E3909E /* LinkedList */,
-				31399A1F29BC24D800E3909E /* Graph */,
-				31399A2029BC24D800E3909E /* Math */,
-				31399A2129BC24D800E3909E /* Search */,
-				31399A2229BC24D800E3909E /* BFS */,
-				31399A2329BC24D800E3909E /* DivideAndConquer */,
-				31399A2429BC24D800E3909E /* Queue */,
-				31399A2529BC24D800E3909E /* DP */,
-				31399A2629BC24D800E3909E /* String */,
-				31399A2729BC24D800E3909E /* Stack */,
-				31399A2829BC24D800E3909E /* Sequence */,
-			);
-			name = "leetcode-swift";
-			path = "../leetcode-swift";
-			sourceTree = "<group>";
-		};
-		31399A1929BC24D800E3909E /* Tree */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Tree;
-			sourceTree = "<group>";
-		};
-		31399A1A29BC24D800E3909E /* Design */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Design;
-			sourceTree = "<group>";
-		};
-		31399A1B29BC24D800E3909E /* DFS */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = DFS;
-			sourceTree = "<group>";
-		};
-		31399A1C29BC24D800E3909E /* Sort */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Sort;
-			sourceTree = "<group>";
-		};
-		31399A1D29BC24D800E3909E /* Array */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Array;
-			sourceTree = "<group>";
-		};
-		31399A1E29BC24D800E3909E /* LinkedList */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = LinkedList;
-			sourceTree = "<group>";
-		};
-		31399A1F29BC24D800E3909E /* Graph */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Graph;
-			sourceTree = "<group>";
-		};
-		31399A2029BC24D800E3909E /* Math */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Math;
-			sourceTree = "<group>";
-		};
-		31399A2129BC24D800E3909E /* Search */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Search;
-			sourceTree = "<group>";
-		};
-		31399A2229BC24D800E3909E /* BFS */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = BFS;
-			sourceTree = "<group>";
-		};
-		31399A2329BC24D800E3909E /* DivideAndConquer */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = DivideAndConquer;
-			sourceTree = "<group>";
-		};
-		31399A2429BC24D800E3909E /* Queue */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Queue;
-			sourceTree = "<group>";
-		};
-		31399A2529BC24D800E3909E /* DP */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = DP;
-			sourceTree = "<group>";
-		};
-		31399A2629BC24D800E3909E /* String */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = String;
-			sourceTree = "<group>";
-		};
-		31399A2729BC24D800E3909E /* Stack */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Stack;
-			sourceTree = "<group>";
-		};
-		31399A2829BC24D800E3909E /* Sequence */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Sequence;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -455,8 +509,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				313999DC29BC22E700E3909E /* ViewController.swift in Sources */,
+				201CEA1C29C2BE9C006EAE27 /* HeapSort1.swift in Sources */,
+				201CEA1629C2BC0C006EAE27 /* BubbleSort3.swift in Sources */,
+				201CEA1429C2BBFF006EAE27 /* BubbleSort2.swift in Sources */,
+				201CEA1229C2BBD1006EAE27 /* BubbleSort1.swift in Sources */,
 				313999D829BC22E700E3909E /* AppDelegate.swift in Sources */,
 				313999DA29BC22E700E3909E /* SceneDelegate.swift in Sources */,
+				201CEA1A29C2BD65006EAE27 /* SelectionSort1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
