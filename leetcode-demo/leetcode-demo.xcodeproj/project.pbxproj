@@ -21,6 +21,7 @@
 		313999EF29BC22EC00E3909E /* leetcode_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313999EE29BC22EC00E3909E /* leetcode_demoTests.swift */; };
 		313999F929BC22EC00E3909E /* leetcode_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313999F829BC22EC00E3909E /* leetcode_demoUITests.swift */; };
 		313999FB29BC22EC00E3909E /* leetcode_demoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313999FA29BC22EC00E3909E /* leetcode_demoUITestsLaunchTests.swift */; };
+		3187D59B2A24486D005007E5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3187D59A2A24486D005007E5 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,16 +47,16 @@
 		201CE9F529C2BB53006EAE27 /* Tree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Tree.playground; sourceTree = "<group>"; };
 		201CE9F629C2BB53006EAE27 /* Math.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Math.playground; sourceTree = "<group>"; };
 		201CE9F729C2BB53006EAE27 /* String.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = String.playground; sourceTree = "<group>"; };
-		201CE9F829C2BB53006EAE27 /* Sort.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Sort.playground; sourceTree = "<group>"; };
-		201CE9FA29C2BB53006EAE27 /* Design.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Design.playground; sourceTree = "<group>"; };
+		201CE9F829C2BB53006EAE27 /* Sort.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Sort.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		201CE9FA29C2BB53006EAE27 /* Design.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Design.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		201CE9FE29C2BB53006EAE27 /* Stack.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Stack.playground; sourceTree = "<group>"; };
 		201CEA0029C2BB53006EAE27 /* Search.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Search.playground; sourceTree = "<group>"; };
 		201CEA0129C2BB53006EAE27 /* Array.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Array.playground; sourceTree = "<group>"; };
 		201CEA0229C2BB53006EAE27 /* LinkedList.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LinkedList.playground; sourceTree = "<group>"; };
 		201CEA0529C2BB53006EAE27 /* DFS.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DFS.playground; sourceTree = "<group>"; };
-		201CEA0729C2BB53006EAE27 /* DP.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DP.playground; sourceTree = "<group>"; };
+		201CEA0729C2BB53006EAE27 /* DP.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DP.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		201CEA0829C2BB53006EAE27 /* BFS.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BFS.playground; sourceTree = "<group>"; };
-		201CEA0B29C2BB53006EAE27 /* Graph.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Graph.playground; sourceTree = "<group>"; };
+		201CEA0B29C2BB53006EAE27 /* Graph.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Graph.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		201CEA0E29C2BB53006EAE27 /* Queue.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Queue.playground; sourceTree = "<group>"; };
 		201CEA1129C2BBD1006EAE27 /* BubbleSort1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort1.swift; sourceTree = "<group>"; };
 		201CEA1329C2BBFF006EAE27 /* BubbleSort2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort2.swift; sourceTree = "<group>"; };
@@ -75,6 +76,7 @@
 		313999F429BC22EC00E3909E /* leetcode-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "leetcode-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		313999F829BC22EC00E3909E /* leetcode_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leetcode_demoUITests.swift; sourceTree = "<group>"; };
 		313999FA29BC22EC00E3909E /* leetcode_demoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leetcode_demoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3187D59A2A24486D005007E5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -326,6 +328,7 @@
 		313999CB29BC22E700E3909E = {
 			isa = PBXGroup;
 			children = (
+				3187D59A2A24486D005007E5 /* README.md */,
 				201CE9E929C2BB52006EAE27 /* arithmetic */,
 				201CE9F029C2BB53006EAE27 /* data-structure */,
 				201CE9F129C2BB53006EAE27 /* leetcode */,
@@ -483,6 +486,7 @@
 			files = (
 				313999E429BC22EB00E3909E /* LaunchScreen.storyboard in Resources */,
 				313999E129BC22EB00E3909E /* Assets.xcassets in Resources */,
+				3187D59B2A24486D005007E5 /* README.md in Resources */,
 				313999DF29BC22E700E3909E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
