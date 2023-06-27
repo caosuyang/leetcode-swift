@@ -256,6 +256,27 @@
 			<key>orderHint</key>
 			<integer>18</integer>
 		</dict>
+		<key>283. 移动零 (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>55</integer>
+		</dict>
+		<key>283. 移动零 (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>56</integer>
+		</dict>
+		<key>283. 移动零 (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>54</integer>
+		</dict>
 		<key>Array (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -707,7 +728,7 @@
 		<key>leetcode-demo.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>0</integer>
 		</dict>
 	</dict>
 </dict>

@@ -78,6 +78,7 @@
 		313999FA29BC22EC00E3909E /* leetcode_demoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leetcode_demoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		313DB4A82A4A823900DF8303 /* 1. 两数之和.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1. 两数之和.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		313DB4A92A4A823A00DF8303 /* 26. 删除有序数组中的重复项 .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "26. 删除有序数组中的重复项 .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		313DB4B12A4A8FEE00DF8303 /* 283. 移动零.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "283. 移动零.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		3187D59A2A24486D005007E5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -276,6 +277,7 @@
 			children = (
 				313DB4A82A4A823900DF8303 /* 1. 两数之和.playground */,
 				313DB4A92A4A823A00DF8303 /* 26. 删除有序数组中的重复项 .playground */,
+				313DB4B12A4A8FEE00DF8303 /* 283. 移动零.playground */,
 			);
 			path = Array;
 			sourceTree = "<group>";
