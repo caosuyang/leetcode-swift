@@ -66,6 +66,10 @@
 		310793E32A4A9A7700FECAD9 /* 121. 买卖股票的最佳时机 .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "121. 买卖股票的最佳时机 .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		310793E42A4A9A8800FECAD9 /* 88. 合并两个有序数组.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "88. 合并两个有序数组.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		310793E52A4A9AB000FECAD9 /* 66. 加一.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "66. 加一.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		310793E62A4A9B2400FECAD9 /* 136. 只出现一次的数字.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "136. 只出现一次的数字.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		310793E72A4A9B3200FECAD9 /* 217. 存在重复元素.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "217. 存在重复元素.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		310793E82A4A9B3F00FECAD9 /* 169. 多数元素.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "169. 多数元素.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		310793E92A4A9B4D00FECAD9 /* 118. 杨辉三角.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "118. 杨辉三角.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		313999D429BC22E700E3909E /* leetcode-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "leetcode-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		313999D729BC22E700E3909E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		313999D929BC22E700E3909E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -284,6 +288,10 @@
 				310793E32A4A9A7700FECAD9 /* 121. 买卖股票的最佳时机 .playground */,
 				310793E42A4A9A8800FECAD9 /* 88. 合并两个有序数组.playground */,
 				310793E52A4A9AB000FECAD9 /* 66. 加一.playground */,
+				310793E62A4A9B2400FECAD9 /* 136. 只出现一次的数字.playground */,
+				310793E72A4A9B3200FECAD9 /* 217. 存在重复元素.playground */,
+				310793E82A4A9B3F00FECAD9 /* 169. 多数元素.playground */,
+				310793E92A4A9B4D00FECAD9 /* 118. 杨辉三角.playground */,
 			);
 			path = Array;
 			sourceTree = "<group>";
