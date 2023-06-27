@@ -76,6 +76,8 @@
 		313999F429BC22EC00E3909E /* leetcode-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "leetcode-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		313999F829BC22EC00E3909E /* leetcode_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leetcode_demoUITests.swift; sourceTree = "<group>"; };
 		313999FA29BC22EC00E3909E /* leetcode_demoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leetcode_demoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		313DB4A82A4A823900DF8303 /* 1. 两数之和.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1. 两数之和.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		313DB4A92A4A823A00DF8303 /* 26. 删除有序数组中的重复项 .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "26. 删除有序数组中的重复项 .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		3187D59A2A24486D005007E5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -150,6 +152,7 @@
 		201CE9F129C2BB53006EAE27 /* leetcode */ = {
 			isa = PBXGroup;
 			children = (
+				31AEB51E2A45416D00C276E2 /* Top */,
 				201CE9F229C2BB53006EAE27 /* Tags */,
 			);
 			name = leetcode;
@@ -159,134 +162,22 @@
 		201CE9F229C2BB53006EAE27 /* Tags */ = {
 			isa = PBXGroup;
 			children = (
-				201CE9F329C2BB53006EAE27 /* Tree */,
-				201CE9F429C2BB53006EAE27 /* Design */,
 				201CE9F529C2BB53006EAE27 /* Tree.playground */,
 				201CE9F629C2BB53006EAE27 /* Math.playground */,
 				201CE9F729C2BB53006EAE27 /* String.playground */,
 				201CE9F829C2BB53006EAE27 /* Sort.playground */,
-				201CE9F929C2BB53006EAE27 /* DFS */,
 				201CE9FA29C2BB53006EAE27 /* Design.playground */,
-				201CE9FB29C2BB53006EAE27 /* Sort */,
-				201CE9FC29C2BB53006EAE27 /* Array */,
-				201CE9FD29C2BB53006EAE27 /* LinkedList */,
 				201CE9FE29C2BB53006EAE27 /* Stack.playground */,
-				201CE9FF29C2BB53006EAE27 /* Graph */,
 				201CEA0029C2BB53006EAE27 /* Search.playground */,
 				201CEA0129C2BB53006EAE27 /* Array.playground */,
 				201CEA0229C2BB53006EAE27 /* LinkedList.playground */,
-				201CEA0329C2BB53006EAE27 /* Math */,
-				201CEA0429C2BB53006EAE27 /* Search */,
 				201CEA0529C2BB53006EAE27 /* DFS.playground */,
-				201CEA0629C2BB53006EAE27 /* BFS */,
 				201CEA0729C2BB53006EAE27 /* DP.playground */,
 				201CEA0829C2BB53006EAE27 /* BFS.playground */,
-				201CEA0929C2BB53006EAE27 /* Queue */,
-				201CEA0A29C2BB53006EAE27 /* DP */,
 				201CEA0B29C2BB53006EAE27 /* Graph.playground */,
-				201CEA0C29C2BB53006EAE27 /* String */,
-				201CEA0D29C2BB53006EAE27 /* Stack */,
 				201CEA0E29C2BB53006EAE27 /* Queue.playground */,
 			);
 			path = Tags;
-			sourceTree = "<group>";
-		};
-		201CE9F329C2BB53006EAE27 /* Tree */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Tree;
-			sourceTree = "<group>";
-		};
-		201CE9F429C2BB53006EAE27 /* Design */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Design;
-			sourceTree = "<group>";
-		};
-		201CE9F929C2BB53006EAE27 /* DFS */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = DFS;
-			sourceTree = "<group>";
-		};
-		201CE9FB29C2BB53006EAE27 /* Sort */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Sort;
-			sourceTree = "<group>";
-		};
-		201CE9FC29C2BB53006EAE27 /* Array */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Array;
-			sourceTree = "<group>";
-		};
-		201CE9FD29C2BB53006EAE27 /* LinkedList */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = LinkedList;
-			sourceTree = "<group>";
-		};
-		201CE9FF29C2BB53006EAE27 /* Graph */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Graph;
-			sourceTree = "<group>";
-		};
-		201CEA0329C2BB53006EAE27 /* Math */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Math;
-			sourceTree = "<group>";
-		};
-		201CEA0429C2BB53006EAE27 /* Search */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Search;
-			sourceTree = "<group>";
-		};
-		201CEA0629C2BB53006EAE27 /* BFS */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = BFS;
-			sourceTree = "<group>";
-		};
-		201CEA0929C2BB53006EAE27 /* Queue */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Queue;
-			sourceTree = "<group>";
-		};
-		201CEA0A29C2BB53006EAE27 /* DP */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = DP;
-			sourceTree = "<group>";
-		};
-		201CEA0C29C2BB53006EAE27 /* String */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = String;
-			sourceTree = "<group>";
-		};
-		201CEA0D29C2BB53006EAE27 /* Stack */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Stack;
 			sourceTree = "<group>";
 		};
 		201CEA0F29C2BB7F006EAE27 /* Bubble */ = {
@@ -378,6 +269,23 @@
 				313999FA29BC22EC00E3909E /* leetcode_demoUITestsLaunchTests.swift */,
 			);
 			path = "leetcode-demoUITests";
+			sourceTree = "<group>";
+		};
+		313DB4AC2A4A82A800DF8303 /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				313DB4A82A4A823900DF8303 /* 1. 两数之和.playground */,
+				313DB4A92A4A823A00DF8303 /* 26. 删除有序数组中的重复项 .playground */,
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
+		31AEB51E2A45416D00C276E2 /* Top */ = {
+			isa = PBXGroup;
+			children = (
+				313DB4AC2A4A82A800DF8303 /* Array */,
+			);
+			path = Top;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
