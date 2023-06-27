@@ -63,6 +63,9 @@
 		201CEA1529C2BC0C006EAE27 /* BubbleSort3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort3.swift; sourceTree = "<group>"; };
 		201CEA1929C2BD65006EAE27 /* SelectionSort1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionSort1.swift; sourceTree = "<group>"; };
 		201CEA1B29C2BE9C006EAE27 /* HeapSort1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeapSort1.swift; sourceTree = "<group>"; };
+		310793E32A4A9A7700FECAD9 /* 121. 买卖股票的最佳时机 .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "121. 买卖股票的最佳时机 .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		310793E42A4A9A8800FECAD9 /* 88. 合并两个有序数组.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "88. 合并两个有序数组.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		310793E52A4A9AB000FECAD9 /* 66. 加一.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "66. 加一.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		313999D429BC22E700E3909E /* leetcode-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "leetcode-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		313999D729BC22E700E3909E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		313999D929BC22E700E3909E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -278,6 +281,9 @@
 				313DB4A82A4A823900DF8303 /* 1. 两数之和.playground */,
 				313DB4A92A4A823A00DF8303 /* 26. 删除有序数组中的重复项 .playground */,
 				313DB4B12A4A8FEE00DF8303 /* 283. 移动零.playground */,
+				310793E32A4A9A7700FECAD9 /* 121. 买卖股票的最佳时机 .playground */,
+				310793E42A4A9A8800FECAD9 /* 88. 合并两个有序数组.playground */,
+				310793E52A4A9AB000FECAD9 /* 66. 加一.playground */,
 			);
 			path = Array;
 			sourceTree = "<group>";
